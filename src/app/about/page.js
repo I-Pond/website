@@ -16,7 +16,7 @@ export default function About() {
         </div>
 
         <Image
-          src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+          src="/data/istockphoto-1346125184-1024x1024_waifu2x_photo_noise3 1.png"
           alt="Team Member"
           width={500}
           height={500}
@@ -24,7 +24,7 @@ export default function About() {
       </div>
       <div className={`${style.container} bg-slate-200`}>
         <Image
-          src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80"
+          src="/data/Nyoman-Karna_waifu2x_photo_noise3 1.png"
           alt="Team Member"
           width={500}
           height={500}
@@ -33,11 +33,11 @@ export default function About() {
         <div>
           <h1 className={`${style.title}`}>Pembina Utama</h1>
           <p className={`${style.description}`}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            facilisi. Cras eget magna in purus vehicula tincidunt. Etiam euismod
-            metus nec massa gravida, eget iaculis enim semper. Sed nec est
-            lectus. Curabitur efficitur, sapien a aliquet lacinia, ex justo
-            dictum mi, nec condimentum eros odio ut ipsum.
+            Dr. Nyoman Bogi Aditya Karna, S.T., M.T. adalah seorang akademisi
+            berpengalaman dengan jabatan akademik sebagai Lektor di Prodi S1
+            Teknik Telekomunikasi Universitas Telkom. Beliau juga merupakan
+            pembina Laboratorium MBC, untuk mengetahui penelitian dan pengalaman
+            akademik beliau dapat mengunjungi website nyomankarna.id
           </p>
         </div>
       </div>
@@ -54,7 +54,7 @@ export default function About() {
         </div>
 
         <Image
-          src="https://images.unsplash.com/photo-1618043299395-fd8bae4709b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+          src="/data/download_waifu2x_photo_noise3 1.png"
           alt="Team Member"
           width={500}
           height={500}

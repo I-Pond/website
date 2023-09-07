@@ -3,7 +3,7 @@
 .container {
   display: flex;
   gap: 3vw;
-  padding: 79px;
+  padding: 8vw;
   align-items: center;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .end_sentence {
-  padding: 5vw;
+  padding: 5vw 8vw;
   margin: auto;
 
   color: #0e2954;
@@ -37,4 +37,28 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .end_sentence {
+    font-size: 18px;
+  }
 }

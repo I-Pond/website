@@ -103,3 +103,48 @@
 
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  .title_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .title_link {
+    font-size: 18px;
+  }
+
+  .title_image {
+    padding: 5vw;
+    width: fit-content;
+    overflow: hidden;
+  }
+
+  .benefit_title {
+    font-size: 36px;
+    width: 80%;
+  }
+
+  .benefit_desc_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  .benefit_desc_grid > div {
+    flex-direction: row;
+    gap: 5vw;
+  }
+
+  .benefit_desc_grid > div > p {
+    font-size: 18px;
+  }
+}

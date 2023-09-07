@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import Image from "next/image";
 import logo from "../../public/images/ipond_logo.svg";
 import logo_mbc from "../../public/images/mbc_logo.svg";
+import Link from "next/link";
 
 export const metadata = {
   title: "My I-Pond",
@@ -19,35 +20,35 @@ export default function RootLayout({ children }) {
         <body>
           <nav className="grid grid-cols-2 gap-5 justify-center text-center navbar text-white font-mono min-h-10">
             <div className="col-start-1 h-32 ml-10 max-w-fit">
-              <a href="/">
+              <Link href="/">
                 <Image src={logo} alt="My Ipond" className="mt-3" />
-              </a>
+              </Link>
             </div>
 
             <div className="grid grid-cols-3 mx-3 items-center text-lg">
               <span>
-                <a
+                <Link
                   href={`/`}
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   <p>Home</p>
-                </a>
+                </Link>
               </span>
               <span>
-                <a
+                <Link
                   href={`/dashboard`}
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   <p>Dashboard</p>
-                </a>
+                </Link>
               </span>
               <span>
-                <a
+                <Link
                   href="/predictor"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   <p>Predictor</p>
-                </a>
+                </Link>
               </span>
             </div>
           </nav>
@@ -65,33 +66,21 @@ export default function RootLayout({ children }) {
             </div>
             <div className="col-span-1 text-white grid grid-cols-3">
               <div className="col-span-1">
-                <a
+                <Link
                   href="/about"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   <p>About us</p>
-                </a>
-                <a
-                  href="/features"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <p>Features</p>
-                </a>
-                <a
-                  href="/news"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <p>News & Blogs</p>
-                </a>
+                </Link>
               </div>
               <div className="col-span-1">
-                <a
+                <Link
                   href="https://www.instagram.com/mbclab/"
                   target="_blank"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   <p>Instagram</p>
-                </a>
+                </Link>
                 <p>Whatsapp</p>
                 <p>Linkedin</p>
               </div>

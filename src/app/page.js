@@ -1,17 +1,8 @@
-"use client";
-
 import Image from "next/image";
 import style from "@/app/homepage.module.css";
-import { useRef } from "react";
 import Link from "next/link";
 
 export default function Dashboard() {
-  const target = useRef(null);
-
-  function handleClick() {
-    target.current.scrollIntoView({ behavior: "smooth" });
-  }
-
   return (
     <>
       <div className={`${style.title_container}`}>
