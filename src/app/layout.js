@@ -3,6 +3,7 @@ import Image from "next/image";
 import logo from "../../public/images/ipond_logo.svg";
 import logo_mbc from "../../public/images/mbc_logo.svg";
 import Link from "next/link";
+import Navbar from "@/components/navbar";
 
 export const metadata = {
   title: "My I-Pond",
@@ -18,40 +19,7 @@ export default function RootLayout({ children }) {
     <>
       <html lang="en">
         <body>
-          <nav className="grid grid-cols-2 gap-5 justify-center text-center navbar text-white font-mono min-h-10">
-            <div className="col-start-1 h-32 ml-10 max-w-fit">
-              <Link href="/">
-                <Image src={logo} alt="My Ipond" className="mt-3" />
-              </Link>
-            </div>
-
-            <div className="grid grid-cols-3 mx-3 items-center text-lg">
-              <span>
-                <Link
-                  href={`/`}
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <p>Home</p>
-                </Link>
-              </span>
-              <span>
-                <Link
-                  href={`/dashboard`}
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <p>Dashboard</p>
-                </Link>
-              </span>
-              <span>
-                <Link
-                  href="/predictor"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <p>Predictor</p>
-                </Link>
-              </span>
-            </div>
-          </nav>
+          <Navbar />
 
           {children}
 
