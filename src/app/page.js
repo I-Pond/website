@@ -30,36 +30,40 @@ export default function Dashboard() {
         <h1 className={`${style.benefit_title}`}>
           Manfaat My - Ipond Untuk Petambak Ikan
         </h1>
-        <div className={`${style.benefit_desc_grid}`}>
-          <div>
-            <p>
-              My I-Pond adalah sebuah inovasi yang dapat membantu petambak dalam
-              budidaya ikan di sungai tambak. Tujuannya adalah untuk memantau
-              kualitas air sungai tambak secara realtime, mengatasi perubahan
-              cuaca dan musim yang mempengaruhi kualitas air, serta mengatasi
-              kurangnya pemantauan berkala dan akurat pada air sungai tambak.
-            </p>
-            <Image
-              src="/data/image 9.png"
-              alt="tools"
-              height={200}
-              width={200}
-            />
-          </div>
-          <div>
-            <p>
-              Dengan My I-Pond, para petambak memiliki alat yang kuat untuk
-              meningkatkan produktivitas dan keberlanjutan budidaya ikan di
-              sungai tambak. Dengan pemantauan yang lebih akurat dan respons
-              yang lebih cepat terhadap perubahan kondisi, mereka dapat meraih
-              hasil yang maksimal dalam usaha mereka.
-            </p>
-            <Image
-              src="/data/image 10.png"
-              alt="tools"
-              height={200}
-              width={200}
-            />
+        <div className={`${style.carousel_container}`}>
+          <div className={`${style.carousel}`}>
+            <div className={`${style.content}`}>
+              <p>
+                My I-Pond adalah sebuah inovasi yang dapat membantu petambak
+                dalam budidaya ikan di sungai tambak. Tujuannya adalah untuk
+                memantau kualitas air sungai tambak secara realtime, mengatasi
+                perubahan cuaca dan musim yang mempengaruhi kualitas air, serta
+                mengatasi kurangnya pemantauan berkala dan akurat pada air
+                sungai tambak.
+              </p>
+              <Image
+                src="/data/image 9.png"
+                alt="tools"
+                height={200}
+                width={200}
+              />
+            </div>
+
+            <div className={`${style.content}`}>
+              <p>
+                Dengan My I-Pond, para petambak memiliki alat yang kuat untuk
+                meningkatkan produktivitas dan keberlanjutan budidaya ikan di
+                sungai tambak. Dengan pemantauan yang lebih akurat dan respons
+                yang lebih cepat terhadap perubahan kondisi, mereka dapat meraih
+                hasil yang maksimal dalam usaha mereka.
+              </p>
+              <Image
+                src="/data/image 10.png"
+                alt="tools"
+                height={200}
+                width={200}
+              />
+            </div>
           </div>
         </div>
       </div>
