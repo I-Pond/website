@@ -1,6 +1,6 @@
 "use client";
 
-import style from "@/components/navbar.module.css";
+import style from "@/styles/navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -32,6 +32,9 @@ export default function Navbar() {
           </Link>
           <Link href="/predictor" onClick={() => setActive(!active)}>
             Predictor
+          </Link>
+          <Link href="/about" onClick={() => setActive(!active)}>
+            About
           </Link>
         </div>
       </div>
