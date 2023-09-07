@@ -24,7 +24,15 @@ export default function RootLayout({ children }) {
               </a>
             </div>
 
-            <div className="grid grid-cols-2 mx-3 items-center text-lg">
+            <div className="grid grid-cols-3 mx-3 items-center text-lg">
+              <span>
+                <a
+                  href={`/`}
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <p>Home</p>
+                </a>
+              </span>
               <span>
                 <a
                   href={`/dashboard`}
@@ -41,14 +49,6 @@ export default function RootLayout({ children }) {
                   <p>Predictor</p>
                 </a>
               </span>
-              {/* <span>
-                <a
-                  href="/monthly"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  <p>Monthly Report</p>
-                </a>
-              </span> */}
             </div>
           </nav>
 
@@ -65,7 +65,6 @@ export default function RootLayout({ children }) {
             </div>
             <div className="col-span-1 text-white grid grid-cols-3">
               <div className="col-span-1">
-                {/* <h1 style={{ cursor: "default" }}>About</h1> */}
                 <a
                   href="/about"
                   style={{ textDecoration: "none", color: "inherit" }}
@@ -86,7 +85,6 @@ export default function RootLayout({ children }) {
                 </a>
               </div>
               <div className="col-span-1">
-                {/* <h1 style={{ cursor: "default" }}>Contact</h1> */}
                 <a
                   href="https://www.instagram.com/mbclab/"
                   target="_blank"
@@ -98,7 +96,6 @@ export default function RootLayout({ children }) {
                 <p>Linkedin</p>
               </div>
               <div className="col-span-1">
-                {/* <h1 style={{ cursor: "default" }}>Support</h1> */}
                 <p>FAQs</p>
                 <p>Support Center</p>
               </div>
