@@ -51,8 +51,16 @@
   background: #0e2954;
 }
 
+.title_image_container {
+  position: relative;
+}
+
 .title_image {
-  margin: auto;
+  position: absolute;
+  bottom: 10vh;
+  left: 15%;
+  height: auto;
+  width: auto;
 }
 
 .benefit_container {

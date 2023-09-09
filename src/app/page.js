@@ -17,13 +17,15 @@ export default function Dashboard() {
             Let's Try
           </Link>
         </div>
-        <Image
-          src="/data/Fisherman.png"
-          alt="Fisherman picture"
-          height={700}
-          width={700}
-          className={`${style.title_image}`}
-        />
+        <div className={`${style.title_image_container}`}>
+          <Image
+            src="/data/Fisherman.png"
+            alt="Fisherman picture"
+            height={700}
+            width={700}
+            className={`${style.title_image}`}
+          />
+        </div>
       </div>
 
       <div className={`${style.benefit_container}`}>
