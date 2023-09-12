@@ -10,8 +10,8 @@ export default function Footer() {
           <Image
             src="/images/mbc_logo.svg"
             alt="MBC Logo"
-            width={300}
-            height={300}
+            width={500}
+            height={500}
           />
         </div>
 

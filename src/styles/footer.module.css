@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .footer_container {
   background-color: #011422;
@@ -12,11 +12,13 @@
 .links {
   display: flex;
   gap: 5vw;
+  width: 100%;
+  justify-content: center;
 }
 
 .link {
   color: #f7f9fc;
-  font-family: Inter;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;

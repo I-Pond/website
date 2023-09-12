@@ -15,12 +15,14 @@ export default function Navbar() {
           onClick={() => setActive(!active)}
           style={{ width: "100%" }}
         >
-          <Image
-            src="/data/My_-_IPond-removebg-preview 3.png"
-            alt="My-IPond"
-            width={150}
-            height={150}
-          />
+          <Link href="/">
+            <Image
+              src="/data/My_-_IPond-removebg-preview 3.png"
+              alt="My-IPond"
+              width={150}
+              height={150}
+            />
+          </Link>
         </div>
 
         <div className={`${style.container} ${active ? "flex" : "none"}`}>
