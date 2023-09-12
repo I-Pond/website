@@ -1,4 +1,4 @@
-[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=website)](mbclaboratory.com)
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=website)](https://www.mbclaboratory.com)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
