@@ -13,9 +13,9 @@ export default function Dashboard() {
             Water Turbidity, pH, and Temperature, providing you with accurate
             information to maintain the cleanliness and health of your water.
           </p>
-          <Link href="/" target="_blank" className={`${style.title_link}`}>
+          {/* <Link href="/" target="_blank" className={`${style.title_link}`}>
             Let's Try
-          </Link>
+          </Link> */}
         </div>
         <div className={`${style.title_image_container}`}>
           <Image
