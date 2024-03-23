@@ -5,7 +5,7 @@ import logo_mbc from "../../public/images/mbc_logo.svg";
 import Link from "next/link";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import { Analytics } from '@vercel/analytics/react';
+// import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: "My I-Pond",
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
           <Navbar />
 
           {children}
-          <Analytics />
+          {/* <Analytics /> */}
           <Footer />
         </body>
       </html>

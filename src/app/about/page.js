@@ -16,7 +16,7 @@ export default function About() {
         </div>
 
         <Image
-          src="/data/istockphoto-1346125184-1024x1024_waifu2x_photo_noise3 1.png"
+          src="/images/bisnis-budidaya-ikan-nila-polisi-raup-rp70-juta-XAUgHKgEqP.png"
           alt="Team Member"
           width={500}
           height={500}
@@ -57,7 +57,7 @@ export default function About() {
         </div>
 
         <Image
-          src="https://images.unsplash.com/photo-1607990283143-e81e7a2c9349?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1741&q=80"
+          src="/images/Bu_Sussi.jpg"
           alt="Team Member"
           width={500}
           height={500}
@@ -66,7 +66,7 @@ export default function About() {
 
       <div className={`${style.container} bg-slate-200`}>
         <Image
-          src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1834&q=80"
+          src="/images/Retno-Hendryanti.jpg"
           alt="Team Member"
           width={500}
           height={500}
@@ -97,7 +97,7 @@ export default function About() {
         </div>
 
         <Image
-          src="/data/download_waifu2x_photo_noise3 1.png"
+          src="/images/tim.jpg"
           alt="Team Member"
           width={500}
           height={500}
